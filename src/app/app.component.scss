@@ -1,0 +1,164 @@
+.profile-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border: 0.3rem solid #9baba9;
+
+  .profile-content {
+    text-align: center;
+
+    .designation {
+      position: relative;
+      top: 3.3rem;
+      background: #f2a447;
+      border: 1px solid #f2a447;
+      padding: 0.5rem;
+      color: #fff;
+      font-weight: 600;
+    }
+  }
+
+  .profile-contact {
+    td {
+      padding-right: 1.1rem;
+    }
+  }
+}
+
+.aboutme {
+  margin-top: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.education-skills {
+  display: inline-flex;
+  width: 100%;
+  text-align: center;
+  padding: 0 0.5rem;
+
+  .education {
+    width: 33.3%;
+
+    .content {
+      height: 40rem;
+      border-right: 0.3rem solid #f2a447;
+
+      h4 {
+        margin-bottom: 1px;
+      }
+
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .skills {
+    width: 33.3%;
+
+    .content {
+      height: 40rem;
+
+      h4 {
+        margin-bottom: 1px;
+      }
+    }
+  }
+
+  .key-skills {
+    width: 33.3%;
+
+    .content {
+      height: 40rem;
+      border-right: 0.3rem solid #f2a447;
+
+      h4 {
+        margin-bottom: 1px;
+      }
+
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .heading {
+    display: inline-block;
+    margin: 2px;
+    width: 10rem;
+    background-color: #f2a447;
+    padding: 0.5rem;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+.experience-heading {
+  text-align: center;
+  padding: 0 0.5rem;
+  border-bottom: 0.3rem solid #f2a447;
+}
+
+.experience-content {
+  margin-top: 1.5rem;
+  padding: 0 0.5rem;
+  display: inline-block;
+  width: 100%;
+
+  .year {
+    width: 25%;
+
+    span {
+      text-decoration: underline;
+    }
+  }
+
+  div {
+    float: left;
+    margin-right: 4rem;
+  }
+}
+
+.project-heading {
+  text-align: center;
+  padding: 0 0.5rem;
+  border-bottom: 0.3rem solid #f2a447;
+}
+
+.project-content {
+  padding: 0 0.5rem;
+}
+
+.award-heading {
+  text-align: center;
+  padding: 0 0.5rem;
+  border-bottom: 0.3rem solid #f2a447;
+}
+
+.award-content {
+  padding: 0 0.5rem;
+}
+
+.personal-heading {
+  text-align: center;
+  padding: 0 0.5rem;
+  border-bottom: 0.3rem solid #f2a447;
+}
+
+.personal-content {
+  padding: 0 0.5rem;
+}
+
+.declaration-heading {
+  text-align: center;
+  padding: 0 0.5rem;
+  border-bottom: 0.3rem solid #f2a447;
+}
+
+.declaration-content {
+  padding: 0 0.5rem;
+
+  span {
+    float: right;
+  }
+}
